@@ -6,6 +6,5 @@ It takes a while to generate the needed jsons and combine them. These were done 
 a combined json of around 130 MB (could be compressed)
 
 This way of access shows promise. See the screenshots for timings below :-
-
-[opening data set|doc\images\loading_dataset_zarr.jpg]
-[plotting a couple of slices|doc\images\demo_slicing_speeds.jpg]
+![opening data set](doc/images/loading_dataset_zarr.jpg)
+![plotting a couple of slices](doc/images/demo_slicing_speeds.jpg)

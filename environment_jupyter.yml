@@ -1,0 +1,13 @@
+name: jupyter
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter_bokeh
+  - jupyter
+  - nb_conda_kernels # support for other conda environments with ipykernel installed
+  # finally misc 
+  - ipywidgets
+  - widgetsnbextension
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator # run jupyter contrib nbextension install --user to complete process

@@ -1,0 +1,29 @@
+name: kerchunk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - ipykernel
+  - pandas
+  - xarray
+  - dask
+  - fsspec
+  - adlfs # azure blob fs
+  - s3fs
+  - h5netcdf
+  - netcdf4
+  - cfgrib
+  - h5py
+  - numcodecs
+  - numpy
+  - scipy
+  - ujson
+  - zarr
+  - matplotlib
+  - bokeh
+  - hvplot
+  - tqdm
+  - panel
+  - pip:
+    - git+https://github.com/fsspec/kerchunk

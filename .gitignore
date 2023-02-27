@@ -1,0 +1,2 @@
+*.json # these are generated zarr files
+.ipynb_checkpoints
